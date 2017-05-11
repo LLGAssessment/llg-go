@@ -12,11 +12,11 @@ Build an executable:
 
 ```bash
 cd llg-go
-go build lastlettergame.go
+go build llg.go
 ```
 
 then run a benchmark
 
 ```bash
-time ./lastlettergame < llg-dataset/70pokemons.txt
+time ./llg < llg-dataset/70pokemons.txt
 ```
